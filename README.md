@@ -14,7 +14,7 @@ composer require shaka/dynamic-update-trait
 
 To use the Dynamic Update Trait, simply use it in your Eloquent model:
 
-```bash
+```php
 <?php
  
 namespace App\Models;
@@ -31,7 +31,7 @@ class User extends Model
 
 You can then update model attributes dynamically:
 
-```bash
+```php
 $model = User::find(1);
 $model->updateName('Shah Sawood'); // name field will be updated 
 $model->updateEmail('shahsawoodshinwari@gmail.com'); // email field will be updated
