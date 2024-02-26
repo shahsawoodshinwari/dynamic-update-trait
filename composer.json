@@ -13,7 +13,5 @@
       "email": "shahsawoodshinwari@gmail.com"
     }
   ],
-  "require": {
-    "illuminate/support": "^8.0"
-  }
+  "require": {}
 }
