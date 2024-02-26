@@ -1,0 +1,19 @@
+{
+  "name": "shaka/dynamic-update-trait",
+  "description": "The Dynamic Update Trait for Laravel provides a convenient way to dynamically update model attributes using magic methods. This trait allows you to update individual model attributes without explicitly defining setter methods for each attribute. It simplifies the process of updating model fields by providing a generic update method that can be called with dynamic method names.",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Shaka\\DynamicUpdateTrait\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Shah Sawood",
+      "email": "shahsawoodshinwari@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/support": "^8.0"
+  }
+}
